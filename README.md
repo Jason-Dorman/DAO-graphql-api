@@ -22,6 +22,7 @@
 - The graphql schema is located in `src/schemas/schema.js`
 - The resolver is located in `src/resolvers/resolvers.js`
 - For now there is some data hardcoded in the project in `src/data/dao.js`
+- Run `npm install` from the root to install dependencies
 - To start the application run `npm run start` from the project root directory. That runs the `index.js` from the root
 - You can then access the Apollo explorer at `http://localhost:300`
 - First use the `register` mutation to register a user - you must include a username and password in the mutation. That provides a jwt token neccessary to access the queries. After you create a user you can use the login mutation to get a jwt token
