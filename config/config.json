@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "jasondorman5",
+    "password": "password",
+    "database": "defidb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
